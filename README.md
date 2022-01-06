@@ -1,4 +1,4 @@
-# Scraping PDB
+# Scraping PDB files from Uniprot entries
 This is a Jupyter-notebook for scraping protein structures from the [Uniprot database](https://www.uniprot.org/uniprot). 
 
 With the advent of [AlphaFold2](https://alphafold.ebi.ac.uk/) and other precise structure predictions, [Uniprot database](https://www.uniprot.org/uniprot) has started to list structure predictions for within entries. As for now, AlphaFold2 provides a [download page](https://alphafold.ebi.ac.uk/download) proteome-wide predictions for dozens of species, which can be large in size. When focusing on variants represented in isoforms and/or orthologs, it is teadious to click every entry of the Uniprot and download the predections. Therefore I prepared a python script to scrape all the structure predictions of the given search result.
