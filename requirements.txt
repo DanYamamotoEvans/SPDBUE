@@ -1,0 +1,5 @@
+requests>=2.27.1
+beautifulsoup4>=4.10.0
+openpyxl>=3.0.9
+tqdm>=2.2.4
+selenium>=3.11.0
