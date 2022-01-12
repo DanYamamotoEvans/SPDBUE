@@ -75,4 +75,3 @@ this will open your browzer.
 5. Execute cells by going to the header -> Cell -> Run all.
 
 The default has a test file for downloading 10 entries. I reccomend you run the script with this before you test your own list. You can undo the comment out by deleting the '#' before fasta_f to see result when inputing a fasta file. 
-
