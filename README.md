@@ -47,10 +47,15 @@ Go to [UniProt database](https://www.uniprot.org/uniprot/), and search the prote
 Hit search to get the results. You can select the proteins of interest from the search result. 
 
 ### Step 2. Download the search result 
-Above the table of search results, you will see a download button. Click this, and select 'Excel'. The download will begin shortly. Make sure you rename the file once donload is cmomplete.
+Above the table of search results, you will see a download button. Click this, and select 'Excel'. The download will begin shortly. Make sure you rename the file once donload is cmomplete. 
 <br>
-_Option_ 
-You can also download the fasta file and put it as input so you can access the sequence information easily.
+_Option_ <br>
+You can also download the fasta file and put it as input so you can access the sequence information easily.<br>
+<br>
+_Tips_<br>
+- Make sure you use the _Advanced option_ for searching Uniprot entries with 3D structures. 
+- The scraping needs to wait for the java script to load, making it slow (~10 sec per protein). Make sure you have <1000 entries after searching.
+<br>
 
 ### Step 3. Run the Jupyter-notebook
 
