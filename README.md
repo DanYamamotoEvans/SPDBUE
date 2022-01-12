@@ -71,7 +71,8 @@ jupyter-notebook
 this will open your browzer.
 
 3. Click and open **SPDBUE_main.ipynb**.
-4. Change _path_, _xlsx_f_, and _fasta_f_ to your directory/files.
-5. Execute cells by going to the header -> Cell -> Run all.
+4. Change _path_, _xlsx_f_, and _fasta_f_ to your directory/files. Make sure you place the xlsx and fasta in the indicated directory. 
+6. Execute cells by going to the header -> Cell -> Run all.
+7. The script will create a new directory under that with the name of the xlsx file (without the extension). Within it, there will be a summary file and a folder with all the pdb files.
 
 The default has a test file for downloading 10 entries. I reccomend you run the script with this before you test your own list. You can undo the comment out by deleting the '#' before fasta_f to see result when inputing a fasta file. 
