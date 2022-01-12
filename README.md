@@ -47,7 +47,7 @@ Go to [UniProt database](https://www.uniprot.org/uniprot/), and search the prote
 Hit search to get the results. You can select the proteins of interest from the search result. 
 
 ### Step 2. Download the search result 
-Above the table of search results, you will see a download button. Click this, and select 'Excel'. The download will begin shortly. Make sure you rename the file once donload is cmomplete. 
+Above the table of search results, you will see a download button. Click this, and select 'Excel'. The download will begin shortly. Make sure you rename the file once donload is cmomplete.<br> 
 <br>
 _Option_ <br>
 You can also download the fasta file and put it as input so you can access the sequence information easily.<br>
