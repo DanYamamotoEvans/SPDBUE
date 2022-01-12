@@ -63,11 +63,14 @@ Above the table of search results, you will see a download button. Click this, a
 
 <br>
 _Option_ <br>
-You can also download the fasta file and put it as input so you can access the sequence information easily.<br>
+You can also download the fasta file and put it as input so you can access the sequence information easily.
+<br>
 <br>
 _Tips_<br>
+
 - Make sure you use the _Advanced option_ for searching Uniprot entries with 3D structures. 
 - The scraping needs to wait for the java script to load, making it slow (~10 sec per protein). Make sure you have <1000 entries after searching.
+
 <br>
 <img width="712" alt="Screen Shot 2022-01-12 at 5 09 33" src="https://user-images.githubusercontent.com/15228616/149120477-7aacfcd1-0d9d-407d-b0a1-d913c46f8892.png">
 
@@ -82,16 +85,7 @@ this will open your browzer.
 
 3. Click and open **SPDBUE_main.ipynb**.
 4. Change _path_, _xlsx_f_, and _fasta_f_ to your directory/files. Make sure you place the xlsx and fasta in the indicated directory. 
-
-
-
-
-
-
-6. Execute cells by going to the header -> Cell -> Run all.
-
-
-
-7. The script will create a new directory under that with the name of the xlsx file (without the extension). Within it, there will be a summary file and a folder with all the pdb files.
+5. Execute cells by going to the header -> Cell -> Run all.
+6. The script will create a new directory under that with the name of the xlsx file (without the extension). Within it, there will be a summary file and a folder with all the pdb files.
 
 The default has a test file for downloading 10 entries. I reccomend you run the script with this before you test your own list. You can undo the comment out by deleting the '#' before fasta_f to see result when inputing a fasta file. 
