@@ -41,13 +41,26 @@ Now you're ready to scrape the PDB files!
 
 
 ## Usage
+### Overview
+**Inputs:** 
+- Excel file from Uniprot search result
+- Output directory name
+- Fasta file from Uniprot search result (optional)
+
+**Outputs:**
+- A directory with all the PDB files
+- A summary file with Uniprot ID to the PDB files. If fasta file is provided you will also have the protein sequence.
+
 
 ### Step 1. Enter your query in Uniprot
 Go to [UniProt database](https://www.uniprot.org/uniprot/), and search the proteins of your interest by entering a query in the search bar.
 Hit search to get the results. You can select the proteins of interest from the search result. 
+<img width="855" alt="Screen Shot 2022-01-12 at 5 08 54" src="https://user-images.githubusercontent.com/15228616/149120516-ae165c00-712f-4043-b9d4-079702cafeaa.png">
 
 ### Step 2. Download the search result 
 Above the table of search results, you will see a download button. Click this, and select 'Excel'. The download will begin shortly. Make sure you rename the file once donload is cmomplete.<br> 
+<img width="485" alt="Screen Shot 2022-01-12 at 5 09 56" src="https://user-images.githubusercontent.com/15228616/149120432-a50abbd5-ad8f-40f8-ab55-c4e0dacbfc12.png">
+
 <br>
 _Option_ <br>
 You can also download the fasta file and put it as input so you can access the sequence information easily.<br>
@@ -56,18 +69,10 @@ _Tips_<br>
 - Make sure you use the _Advanced option_ for searching Uniprot entries with 3D structures. 
 - The scraping needs to wait for the java script to load, making it slow (~10 sec per protein). Make sure you have <1000 entries after searching.
 <br>
+<img width="712" alt="Screen Shot 2022-01-12 at 5 09 33" src="https://user-images.githubusercontent.com/15228616/149120477-7aacfcd1-0d9d-407d-b0a1-d913c46f8892.png">
+
 
 ### Step 3. Run the Jupyter-notebook
-
-**Inputs:** 
-- Excel file
-- Output directory name
-- Fasta file(optional)
-
-**Outputs:**
-- A directory with all the PDB files
-- A summary file with Uniprot ID to the PDB files. If fasta file is provided you will also have the protein sequence.
-
 1. Open your terminal, and go to the SPDBUE directory.
 2. Open jupyter-notebook by entering  
 ```sh
@@ -77,7 +82,16 @@ this will open your browzer.
 
 3. Click and open **SPDBUE_main.ipynb**.
 4. Change _path_, _xlsx_f_, and _fasta_f_ to your directory/files. Make sure you place the xlsx and fasta in the indicated directory. 
+
+
+
+
+
+
 6. Execute cells by going to the header -> Cell -> Run all.
+
+
+
 7. The script will create a new directory under that with the name of the xlsx file (without the extension). Within it, there will be a summary file and a folder with all the pdb files.
 
 The default has a test file for downloading 10 entries. I reccomend you run the script with this before you test your own list. You can undo the comment out by deleting the '#' before fasta_f to see result when inputing a fasta file. 
