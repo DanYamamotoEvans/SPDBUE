@@ -62,11 +62,17 @@ Above the table of search results, you will see a download button. Click this, a
 <img width="485" alt="Screen Shot 2022-01-12 at 5 09 56" src="https://user-images.githubusercontent.com/15228616/149120432-a50abbd5-ad8f-40f8-ab55-c4e0dacbfc12.png">
 
 <br>
-_Option_ <br>
+
+_Option_ 
+
+<br>
 You can also download the fasta file and put it as input so you can access the sequence information easily.
 <br>
 <br>
-_Tips_<br>
+
+_Tips_
+
+<br>
 
 - Make sure you use the _Advanced option_ for searching Uniprot entries with 3D structures. 
 - The scraping needs to wait for the java script to load, making it slow (~10 sec per protein). Make sure you have <1000 entries after searching.
