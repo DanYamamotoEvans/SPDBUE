@@ -9,7 +9,11 @@ Please feel free to contact me through this repository for bugs and issues.
 
 ## News
 - 2022-01-12 Version 1.0.0 made public!
-
+<details open>
+<summary>Archive</summary>
+<br>
+- 2022-01-12 Version 1.0.0 made public!
+</details>
 
 
 ## Installation
