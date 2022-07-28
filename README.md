@@ -100,3 +100,10 @@ this will open your browzer.
 6. The script will create a new directory under that with the name of the xlsx file (without the extension). Within it, there will be a summary file and a folder with all the pdb files.
 
 The default has a test file for downloading 10 entries. I reccomend you run the script with this before you test your own list. You can undo the comment out by deleting the '#' before fasta_f to see result when inputing a fasta file. 
+
+
+
+One last thing:
+If you make use of an AlphaFold prediction, please cite the following papers:
+Jumper, J et al. Highly accurate protein structure prediction with AlphaFold. Nature (2021).
+Varadi, M et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Research (2021).
