@@ -103,7 +103,7 @@ The default has a test file for downloading 10 entries. I reccomend you run the 
 
 
 
-One last thing:
+## Citation
 If you make use of an AlphaFold prediction, please cite the following papers:
 Jumper, J et al. Highly accurate protein structure prediction with AlphaFold. Nature (2021).
 Varadi, M et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Research (2021).
